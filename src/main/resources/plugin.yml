@@ -1,0 +1,11 @@
+name: Pets
+version: ${project.version}
+main: party.fedora.pets.Pets
+api-version: 1.16
+authors: [ FedoraParty ]
+description: Pet plugin
+commands:
+  call:
+    description: Calls your pet.
+    usage: /<command>
+
